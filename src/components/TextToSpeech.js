@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 
+
 const TextToSpeech = () => {
     return ( 
         <View>
@@ -10,3 +11,4 @@ const TextToSpeech = () => {
 }
  
 export default TextToSpeech;
+
