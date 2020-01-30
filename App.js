@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import VibrationView from './src/views/VibrationView';
+import TextToSpeech from './src/components/TextToSpeech';
 
 export default function App() {
   return (
     <View style={styles.container}>
         <VibrationView />
+        <TextToSpeech />
     </View>
   );
 }
