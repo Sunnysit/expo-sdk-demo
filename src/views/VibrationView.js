@@ -7,6 +7,7 @@ const VibrationView = () => {
     
     return ( 
         <View style={styles.container}>
+            <Text>Touch to Shake</Text>
             <VibrationComponent/>
         </View>
      );
