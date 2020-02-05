@@ -12,6 +12,9 @@ const Home = ({navigation}) => {
             <HomeNavButton navigation={navigation} screenName="VibrationView">
                 Vibration
             </HomeNavButton>
+            <HomeNavButton navigation={navigation} screenName="QrScannerView">
+                QR code Scanner
+            </HomeNavButton>
         </View>
     );
 }

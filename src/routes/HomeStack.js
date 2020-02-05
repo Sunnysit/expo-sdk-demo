@@ -5,6 +5,7 @@ import Header from '../shared/Header';
 import Home from '../views/Home';
 import VibrationView from '../views/VibrationView';
 import TextToSpeechView from '../views/TextToSpeechView';
+import QrViewStack from '../routes/QrViewStack';
 
 
 
@@ -32,6 +33,14 @@ const screens = {
               headerTitle: () => <Header title='Text to Speech' navigation={navigation} />
             }
           },
+    },
+    QrScannerView:{
+      screen:QrViewStack,
+      navigationOptions: ({ navigation }) => {
+        return {
+          headerTitle: () => <Header title='QR code Scanner' navigation={navigation} />
+        }
+      },
     }
   };
 
